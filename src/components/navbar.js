@@ -11,7 +11,9 @@ import Bird from './images/bird.svg';
 const Navbar = () => {
     return (
         <nav>
-            <img src={Bird} alt="twitlogo"/>
+            <div className='birdWrap'>
+            <img className='twitLogo' src={Bird} alt="twitlogo"/>
+            </div>
             <ul className="sidebar">
       
                 <li><img src={Home} alt="Home"/><span className="words">Home</span></li>
@@ -23,7 +25,9 @@ const Navbar = () => {
                 <li><img src={Profile} alt="Profile" /><span className="words">Profile</span></li>
                 <li><img src={More} alt="More" /><span className="words">More</span></li>
             </ul>
+            <div className='buttonWrap'>
             <button className="tweetBtn" href="#">Tweet{' '}</button>
+            </div>
         </nav>
     )
 }
