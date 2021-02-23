@@ -1,4 +1,6 @@
 import './navbar.css';
+import Notification from './Bell.svg'
+
 
 const Navbar = () => {
     return (
@@ -6,7 +8,7 @@ const Navbar = () => {
             <ul>
                 <li>Home</li>
                 <li>Explore</li>
-                <li>Notifications</li>
+                <li><img src={Notification} alt="Notification" /></li>
                 <li>Messages</li>
                 <li>Bookmarks</li>
                 <li>Lists</li>
