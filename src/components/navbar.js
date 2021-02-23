@@ -3,7 +3,7 @@ import './navbar.css';
 const Navbar = () => {
     return (
         <nav>
-            <ul>
+            <ul className="sidebar">
                 <li>Home</li>
                 <li>Explore</li>
                 <li>Notifications</li>
