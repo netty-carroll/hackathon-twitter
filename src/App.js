@@ -7,8 +7,7 @@ function App() {
     <div>
       <section>
         <Navbar />
-        <button className="twitMsg" href="#">message{' '}</button>
-        <button className="tweetBtn" href="#">Tweet{' '}</button>
+      
       </section>
       <section>
         <Searchbar />

@@ -1,9 +1,10 @@
 import './searchbar.css';
+import IconInput from './iconinput';
 
 const Searchbar = () => {
     return (
         <div>
-            <input type="text" placeholder="Search Twitter"></input>
+            <IconInput className="icon-search" />
         </div>
     )
 }
