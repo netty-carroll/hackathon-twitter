@@ -4,7 +4,7 @@ import Searchbar from './components/searchbar';
 
 function App() {
   return (
-    <div>      
+    <div className="body">      
       <section className="left">
         <Navbar />
       </section>

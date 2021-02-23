@@ -6,32 +6,34 @@
   text-decoration: none;
 }
 
-body {
-  display: flex;
-  flex-direction: row;
+.body {
+ 
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
   background-color: #ffffff;
   color: rgb(0, 0, 0);
   height: 100%;
 }
-
+.body {
+  display: flex;
+  flex-direction: row;
+}
 .left {
   background-color: #15202B;
-  width: 400px;
+  width: 25%;
   height: 100vh;
   border: 0.5px solid grey;
 }
 
 .centre {
   background-color: #15202B;
-  width: 800px;
+  width: 50%;
   height: 100vh;
   border: 0.5px solid grey;
 }
 
 .right {
   background-color: #15202B;
-  width: 350px;
+  width: 25%;
   height: 100vh;
   border: 1px solid grey;
 }
