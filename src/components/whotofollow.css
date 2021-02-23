@@ -1,4 +1,4 @@
-.whatsHapSection {
+.whoToFollowSection{
     width: 100%;
     border: 0px solid;
     margin: 8px 0;
@@ -9,6 +9,6 @@
     color: white;
 }
 
-.whatsHapShowMore a {
+.whoToFollowShowMore a {
     color: #2290d4;
 }
