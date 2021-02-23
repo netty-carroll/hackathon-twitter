@@ -14,6 +14,7 @@ const Navbar = () => {
             <div className='birdWrap'>
             <img className='twitLogo' src={Bird} alt="twitlogo"/>
             </div>
+
             <ul className="sidebar">
       
                 <li><img src={Home} alt="Home"/><span className="words">Home</span></li>

@@ -1,3 +1,8 @@
+.birdLogo{
+  margin-top: 20px;
+  margin-left: 60px;
+ 
+}
 .tweetBtn {
     display: inline-block;
     color: #ffffff;
@@ -12,7 +17,7 @@
     border-radius: 28px 28px 28px 28px;
     border: 0px solid #000000;
     cursor: pointer;
-    margin-left: 5px;
+    margin-left: 50px;
     background: #1da1f2;
     font-weight: 900;
     transition: 0.3s;
@@ -38,7 +43,7 @@ ul li {
     width: 175px;
     height: 100%;
     font-size: 19px;
-    margin-left: 40px;
+    margin-left:50px;
     margin-bottom: 20px;
 }
 ul {
