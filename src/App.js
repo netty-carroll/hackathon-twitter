@@ -4,19 +4,17 @@ import Searchbar from './components/searchbar';
 
 function App() {
   return (
-    <div className="body">
-      
-      <section className="left">
-      
+    <div>
+      <section>
+        <Navbar />
+        <button className="twitMsg" href="#">message{' '}</button>
+        <button className="tweetBtn" href="#">Tweet{' '}</button>
       </section>
       <section className="centre"><button className="tweetBtn" href="#">Tweet{' '}</button>
         <Searchbar />
       </section>
-      <section className="right">
-
-      </section>
-   
-   
+    </div>
+    <Navbar />  
   </div>
   );
 }
