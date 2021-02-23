@@ -1,13 +1,13 @@
 import './navbar.css';
-import Notification from './Bell.svg'
-import Explore from './hashtag.svg'
-import Messages from './Mail.svg'
-import Bookmarks from './bookmark-regular.svg' 
-import Lists from './list-solid.svg'
-import Profile from './user-solid.svg'
-import More from './comment-dots-regular.svg'
-import Home from './home-solid.svg'
-import Bird from './bird.svg';
+import Notification from './images/bell.svg'
+import Explore from './images/hashtag.svg'
+import Messages from './images/mail.svg'
+import Bookmarks from './images/bookmark-regular.svg' 
+import Lists from './images/list-solid.svg'
+import Profile from './images/user-solid.svg'
+import More from './images/comment-dots-regular.svg'
+import Home from './images/home-solid.svg'
+import Bird from './images/bird.svg';
 const Navbar = () => {
     return (
         <nav>
