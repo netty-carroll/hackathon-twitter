@@ -1,17 +1,20 @@
 import './navbar.css';
-import Notification from './Bell.svg'
-import Explore from './hashtag.svg'
-import Messages from './Mail.svg'
-import Bookmarks from './bookmark-regular.svg' 
-import Lists from './list-solid.svg'
-import Profile from './user-solid.svg'
-import More from './comment-dots-regular.svg'
-
+import Notification from './images/bell.svg'
+import Explore from './images/hashtag.svg'
+import Messages from './images/mail.svg'
+import Bookmarks from './images/bookmark-regular.svg' 
+import Lists from './images/list-solid.svg'
+import Profile from './images/user-solid.svg'
+import More from './images/comment-dots-regular.svg'
+import Home from './images/home-solid.svg'
+import Bird from './images/bird.svg';
 const Navbar = () => {
     return (
         <nav>
+            <img src={Bird} alt="twitlogo"/>
             <ul className="sidebar">
-                <li>Home</li>
+      
+                <li><img src={Home} alt="Home"/><span className="words">Home</span></li>
                 <li><img src={Explore} alt="Explore" /><span className="words">Explore</span></li>
                 <li><img src={Notification} alt="Notification" /><span className="words">Notification</span></li>
                 <li><img src={Messages} alt="Messages" /><span className="words">Messages</span></li>

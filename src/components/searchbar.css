@@ -1,0 +1,6 @@
+.icon-search {
+    width: 15px;
+    height: 15px;
+    background-size: contain;
+    background: url("./images/loupe.svg") no-repeat;
+}

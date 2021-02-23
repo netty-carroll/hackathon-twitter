@@ -4,12 +4,16 @@ import Searchbar from './components/searchbar';
 
 function App() {
   return (
-    <div>
-      <section>
+    <div>      
+      <section className="left">
         <Navbar />
-      
       </section>
-      <section>
+
+      <section className="centre">
+
+      </section>
+
+      <section className="right">
         <Searchbar />
       </section>
     </div>
