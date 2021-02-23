@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './components/navbar';
 import Searchbar from './components/searchbar';
 import TwitterFooter from './components/footer';
+import WhatsHappening from './components/whatsHappening';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
 
       <section className="right">
         <Searchbar />
+        <WhatsHappening />
         <TwitterFooter />
       </section>
     </div>
