@@ -7,13 +7,15 @@ function App() {
     <div>
       <section>
         <Navbar />
-        <button  className="twitMsg" href="#">message{' '}</button>
+        <button className="twitMsg" href="#">message{' '}</button>
         <button className="tweetBtn" href="#">Tweet{' '}</button>
       </section>
       <section>
         <Searchbar />
       </section>
     </div>
+    <Navbar />  
+  </div>
   );
 }
 export default App;
