@@ -13,14 +13,15 @@ const Navbar = () => {
         <nav>
             <img src={Bird} alt="twitlogo"/>
             <ul className="sidebar">
-                <li><img src={Home} alt="Home" />Home</li>
-                <li><img src={Explore} alt="Explore" />Explore</li>
-                <li><img src={Notification} alt="Notification" />Notification</li>
-                <li><img src={Messages} alt="Messages" />Messages</li>
-                <li><img src={Bookmarks} alt="Bookmarks" />Bookmarks</li>
-                <li><img src={Lists} alt="Lists" />Lists</li>
-                <li><img src={Profile} alt="Profile" />Profile</li>
-                <li><img src={More} alt="More" />More</li>
+      
+                <li><img src={Home} alt="Home"/><span className="words">Home</span></li>
+                <li><img src={Explore} alt="Explore" /><span className="words">Explore</span></li>
+                <li><img src={Notification} alt="Notification" /><span className="words">Notification</span></li>
+                <li><img src={Messages} alt="Messages" /><span className="words">Messages</span></li>
+                <li><img src={Bookmarks} alt="Bookmarks" /><span className="words">Bookmarks</span></li>
+                <li><img src={Lists} alt="Lists" /><span className="words">Lists</span></li>
+                <li><img src={Profile} alt="Profile" /><span className="words">Profile</span></li>
+                <li><img src={More} alt="More" /><span className="words">More</span></li>
             </ul>
             <button className="tweetBtn" href="#">Tweet{' '}</button>
         </nav>
