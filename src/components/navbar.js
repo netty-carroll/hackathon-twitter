@@ -1,6 +1,6 @@
 import './navbar.css';
 
-const Navbar = (props) => {
+const Navbar = () => {
     return (
         <nav>
             <ul>
