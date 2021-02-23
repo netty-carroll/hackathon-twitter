@@ -1,0 +1,22 @@
+.icon {
+    width: 100%;
+    border: 1px solid #E6E6E6;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px 0px 8px 35px;
+    transition: 0.3s;
+}
+
+.input-icon-container {
+    position: relative;
+}
+
+.icon-container {
+    position: absolute;
+    top: 8px;
+    padding: 10px 0px 0px 10px;
+    transition: 0.3s;
+    color: #373737;
+    width: 23px;
+    height: 23px;
+}
