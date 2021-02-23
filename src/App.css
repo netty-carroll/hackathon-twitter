@@ -1,0 +1,25 @@
+.left {
+    background-color: #15202b;
+    width: 400px;
+    height: 100vh;
+    border: 0.5px solid grey;
+
+}
+.centre {
+    background-color: #15202b;
+    width: 800px;
+    height: 100vh;
+    border: 0.5px solid grey;
+}
+
+.right {
+    background-color: #15202b;
+    width: 350px;
+    height: 100vh;
+    border: 1px solid grey;
+}
+
+.body {
+    display: flex;
+
+}
