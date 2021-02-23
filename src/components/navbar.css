@@ -1,4 +1,4 @@
-.button-twitter {
+.tweetBtn {
     display: inline-block;
     color: #ffffff;
     height: 49px;
@@ -17,7 +17,7 @@
     font-weight: 900;
     transition: 0.3s;
   }
-  .button-twitter:hover {
+  .tweetBtn:hover {
     transition: 0.3s;
     background-color: #2290d4;
   }
