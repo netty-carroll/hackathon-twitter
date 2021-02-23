@@ -14,8 +14,7 @@ function App() {
         <Searchbar />
       </section>
     </div>
-    <Navbar />  
-  </div>
+
   );
 }
 export default App;
