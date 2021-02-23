@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+.twitMsg {
+  background-color: #1da1f2;
+  border-radius: 28px;
+
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 7px 22px;
+  text-decoration: none;
+}
+.twitMsg:hover {
+  background-color: #1587ce;
+}
+.twitMsg:active {
+  position: relative;
+  top: 1px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.tweetBtn {
+  background-color: #1da1f2;
+  border-radius: 28px;
+
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 7px 18px;
+  text-decoration: none;
+}
+.tweetBtn:hover {
+  background-color: #1587ce;
+}
+.tweetBtn:active {
+  position: relative;
+  top: 1px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
