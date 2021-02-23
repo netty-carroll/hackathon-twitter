@@ -10,7 +10,7 @@ import More from './comment-dots-regular.svg'
 const Navbar = () => {
     return (
         <nav>
-            <ul>
+            <ul className="sidebar">
                 <li>Home</li>
                 <li><img src={Explore} alt="Explore" /></li>
                 <li><img src={Notification} alt="Notification" /></li>
