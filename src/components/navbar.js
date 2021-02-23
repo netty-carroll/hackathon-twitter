@@ -13,6 +13,7 @@ const Navbar = () => {
                 <li>Profile</li>
                 <li>More</li>
             </ul>
+            <button className="tweetBtn" href="#">Tweet{' '}</button>
         </nav>
     )
 }
