@@ -23,16 +23,22 @@
 }
 
 .centre {
+  display: flex;
+  flex-direction: column;
   background-color: #15202B;
   width: 50%;
   height: 100vh;
-  border: 0.5px solid grey;
 }
-.centre {
-  display: flex;
-  
+.topTweets {
+  border: 1px solid grey;
+  height: 10vh;
+  width: 100vh;
 }
-
+.posts{
+  border: 1px solid grey;
+  height: 12vh;
+  padding-bottom: 2vh;
+}
 .right {
   background-color: #15202B;
   width: 25%;

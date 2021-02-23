@@ -8,9 +8,11 @@ function App() {
       <section className="left">
         <Navbar />
       </section>
-
+      
       <section className="centre">
-
+      <section className="topTweets"></section>
+      <section className="posts"></section>
+      <section className="tweets"></section>
       </section>
 
       <section className="right">
