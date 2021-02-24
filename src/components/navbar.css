@@ -6,8 +6,8 @@
 .tweetBtnNav {
   display: inline-block;
   color: #ffffff;
-  height: 39px;
-  width: 230px;
+  height: 49px;
+  width: 214.19px;
   text-align: center;
   vertical-align: middle;
   border: 1px solid transparent;
@@ -17,7 +17,7 @@
   border-radius: 28px 28px 28px 28px;
   border: 0px solid #000000;
   cursor: pointer;
-  margin-top: 8%;
+  margin-top: 0%;
   margin-left: 4%;
   background: #1da1f2;
   font-weight: 900;
@@ -54,10 +54,8 @@ ul {
 }
 
 li:hover {
-  fill: #1da1f2;
   color: #1da1f2;
   cursor: pointer;
-  color: #000000;
   background-color: rgb(187, 184, 184);
   border-radius: 28px 28px 28px 28px;
   border: 0px solid #000000;
@@ -67,8 +65,8 @@ li {
   padding-bottom: 10px;
 }
 img {
-  width: 20px;
-  height: 20px;
+  width: 26px;
+  height: 26px;
   margin-left: 10px;
 }
 
