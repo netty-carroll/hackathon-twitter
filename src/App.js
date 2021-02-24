@@ -10,8 +10,10 @@ function App() {
       </section>
       
       <section className="centre">
-      <section className="topTweets"></section>
-      <section className="posts"></section>
+      <section className="topTweets"><h1>Home</h1></section>
+      <section className="posts">
+      <button className="tweetBtn" href="#">Tweet{' '}</button>
+      </section>
       <section className="tweets"></section>
       </section>
 

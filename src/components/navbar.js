@@ -22,7 +22,7 @@ const Navbar = () => {
                 <li><img src={Profile} alt="Profile" />Profile</li>
                 <li><img src={More} alt="More" />More</li>
             </ul>
-            <button className="tweetBtn" href="#">Tweet{' '}</button>
+            <button className="tweetBtnNav" href="#">Tweet{' '}</button>
         </nav>
     )
 }
