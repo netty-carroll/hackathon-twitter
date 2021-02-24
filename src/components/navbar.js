@@ -26,9 +26,13 @@ const Navbar = () => {
                 <li><img src={Profile} alt="Profile" /><span className="words">Profile</span></li>
                 <li><img src={More} alt="More" /><span className="words">More</span></li>
             </ul>
+
+            <button className="tweetBtnNav" href="#">Tweet{' '}</button>
+
             <div className='buttonWrap'>
             <button className="tweetBtn" href="#">Tweet{' '}</button>
             </div>
+
         </nav>
     )
 }
