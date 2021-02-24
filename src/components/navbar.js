@@ -1,3 +1,4 @@
+import CurrentProfileDisplay from './navbarProfileSection';
 import './navbar.css';
 import Notification from './images/bell.svg'
 import Explore from './images/hashtag.svg'
@@ -8,15 +9,15 @@ import Profile from './images/user-solid.svg'
 import More from './images/comment-dots-regular.svg'
 import Home from './images/home-solid.svg'
 import Bird from './images/bird.svg';
+
 const Navbar = () => {
     return (
         <nav>
             <div className='birdWrap'>
-            <img className='twitLogo' src={Bird} alt="twitlogo"/>
+                <img className='twitLogo' src={Bird} alt="twitlogo"/>
             </div>
 
-            <ul className="sidebar">
-      
+            <ul className="sidebar">      
                 <li><img src={Home} alt="Home"/><span className="words">Home</span></li>
                 <li><img src={Explore} alt="Explore" /><span className="words">Explore</span></li>
                 <li><img src={Notification} alt="Notification" /><span className="words">Notification</span></li>
@@ -27,11 +28,13 @@ const Navbar = () => {
                 <li><img src={More} alt="More" /><span className="words">More</span></li>
             </ul>
 
-
             <div className='buttonWrap'>
-            <button className="tweetBtnNav" href="#">Tweet{' '}</button>
+                <button className="tweetBtnNav" href="#">Tweet{' '}</button>
             </div>
 
+            <div className="profileDisplayAndSettings">
+                <CurrentProfileDisplay />
+            </div>
         </nav>
     )
 }
