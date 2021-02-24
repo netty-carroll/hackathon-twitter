@@ -4,6 +4,7 @@ import Searchbar from './components/searchbar';
 import TwitterFooter from './components/footer';
 import WhatsHappening from './components/whatsHappening';
 import WhoToFollow from './components/whotofollow';
+import PostTweetBox from './components/tweetbox';
 
 function App() {
   return (
@@ -13,11 +14,16 @@ function App() {
       </section>
       
       <section className="centre">
-      <section className="topTweets"><h1>Home</h1></section>
-      <section className="posts">
-      <button className="tweetBtn" href="#">Tweet{' '}</button>
-      </section>
-      <section className="tweets"></section>
+        <section className="topTweets">
+          <h1>Home</h1>
+        </section>
+      
+        <section className="posts">
+          <PostTweetBox />
+        </section>
+      
+        <section className="tweets">
+        </section>
       </section>
 
       <section className="right">
