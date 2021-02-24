@@ -7,7 +7,7 @@
   display: inline-block;
   color: #ffffff;
   height: 39px;
-  width: 200px;
+  width: 230px;
   text-align: center;
   vertical-align: middle;
   border: 1px solid transparent;
@@ -18,7 +18,7 @@
   border: 0px solid #000000;
   cursor: pointer;
   margin-top: 8%;
-  margin-left: 20%;
+  margin-left: 4%;
   background: #1da1f2;
   font-weight: 900;
   transition: 0.3s;
