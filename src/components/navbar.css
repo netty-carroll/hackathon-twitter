@@ -54,10 +54,8 @@ ul {
 }
 
 li:hover {
-  fill: #1da1f2;
   color: #1da1f2;
   cursor: pointer;
-  color: #000000;
   background-color: rgb(187, 184, 184);
   border-radius: 28px 28px 28px 28px;
   border: 0px solid #000000;
