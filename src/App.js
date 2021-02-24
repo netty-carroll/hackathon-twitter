@@ -1,6 +1,9 @@
 import './App.css';
 import Navbar from './components/navbar';
 import Searchbar from './components/searchbar';
+import TwitterFooter from './components/footer';
+import WhatsHappening from './components/whatsHappening';
+import WhoToFollow from './components/whotofollow';
 
 function App() {
   return (
@@ -19,6 +22,9 @@ function App() {
 
       <section className="right">
         <Searchbar />
+        <WhatsHappening />
+        <WhoToFollow />
+        <TwitterFooter />
       </section>
     </div>
 
