@@ -12,9 +12,19 @@
 .widgets_input {
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: var(--twitter-background);
     padding: 10px;
     border-radius: 20px;
     margin-top: 10px;
     margin-left: 20px;
+}
+
+.widgetContainer {
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
 }
