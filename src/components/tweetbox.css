@@ -1,6 +1,7 @@
 .buttonBox {
     display: flex;
-    margin-top: 10%;
+    margin-top: 5%;
+    margin-left: 20px;
 }
 .shareTweetButton {
     padding-left: 450px;

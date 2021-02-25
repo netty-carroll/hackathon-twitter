@@ -11,12 +11,15 @@
     font-weight: bold;
     font-size: 20px;
     color: #ffffff;
+    margin-top: 1%;
+    margin-left: 1%;
 }
 .topTweetSearchIcon {
     height: 100%;
 }
-.topTweetSearchIcon img{
-    width: 1.5em;
-    height: 1.5em;
-    margin-right: calc(0px + (-1 * (44px - 1.5em)) / 2);
+.topTweetSearchIcon {
+    width: 2em;
+    height: 2em;
+    /* margin-right: calc(0px + (-1 * (44px - 1.5em)) / 2); */
+    margin-left: 740px;
 }
