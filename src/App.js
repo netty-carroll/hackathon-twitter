@@ -7,6 +7,7 @@ import WhoToFollow from './components/whotofollow';
 import PostTweetBox from './components/tweetbox';
 import CentreTopTweets from './components/centretop';
 import Messages from './components/messages';
+import RightSectMore from './components/rightSectMore'
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <WhatsHappening />
         <WhoToFollow />
         <TwitterFooter />
+        <RightSectMore />
       </section>
 
       <section className="stickyBottom">
