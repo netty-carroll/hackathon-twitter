@@ -1,7 +1,11 @@
 import React from 'react'
 import './tweetbox.css';
 import {Avatar} from "@material-ui/core"
-
+import InsertGifIcon from './images/gifAdd.svg';
+import InsertEmojiIcon from './images/emojiAdd.svg';
+import InsertMediaIcon from './images/imageAdd.svg';
+import InsertAddQuestion from './images/graphAdd.svg';
+import InsertSchedule from './images/scheduleAdd.svg';
 
 const PostTweetBox = () => {
     return(
@@ -20,18 +24,38 @@ const PostTweetBox = () => {
                     </div>
                 </div>
 
-                <div className="buttonBox">
-                    {/* //image button
-			        //gif button
-			        //poll button
-			        //emoji button
-			        //schedule button*/}
+                <div className="buttonBox">                    
+                    <div className="insertMedia">
+                        <img src={InsertMediaIcon}></img>
+                    </div>
 
-                    <button className="tweetBtn" href="#">Tweet{' '}</button>
+                    <div className="insertGif">
+                        <img src={InsertGifIcon}></img>  
+                    </div>
+
+                    <div className="askAQuestionTweet">
+                        <img src={InsertAddQuestion}></img>
+                    </div>
+
+                    <div className="insertEmoji">
+                        <img src={InsertEmojiIcon}></img>
+                    </div>
+
+                    <div className="createSchedule">
+                        <img src={InsertSchedule}></img>
+                    </div>
                     
-                    {/* include the extra buttons when you begin typing a tweet - the + button and the button that shows how many characters you have remaining */}
-                </div>
+                    <div className="shareTweetButton">
+                        <button className="tweetBtn" href="#">Tweet{' '}</button>
+                    </div>
+                    
+                    <div className="characterLimitationIcon">
+                    </div>
+                   
 
+                    <div className="addAnotherTweetButton">
+                    </div>
+                 </div>
             </div>
         
     )

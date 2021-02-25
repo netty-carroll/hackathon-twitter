@@ -5,6 +5,8 @@ import TwitterFooter from './components/footer';
 import WhatsHappening from './components/whatsHappening';
 import WhoToFollow from './components/whotofollow';
 import PostTweetBox from './components/tweetbox';
+import More from './components/menu';
+import CentreTopTweets from './components/centretop';
 
 function App() {
   return (
@@ -15,7 +17,7 @@ function App() {
       
       <section className="centre">
         <section className="topTweets">
-          <h1>Home</h1>
+          <CentreTopTweets />
         </section>
       
         <section className="posts">
