@@ -1,6 +1,7 @@
 .centreTopTweets{
     border: 1px solid grey;
     height: 10vh;
+    position: sticky;
 }
 .homeHeading{
     height: 100%;
