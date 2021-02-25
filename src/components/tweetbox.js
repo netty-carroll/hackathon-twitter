@@ -53,10 +53,11 @@ const PostTweetBox = () => {
                     
                     <div className="characterLimitationIcon">
                     </div>
+                   
 
                     <div className="addAnotherTweetButton">
                     </div>
-                </div>
+                 </div>
             </div>
         </div>
     )
