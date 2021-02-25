@@ -28,6 +28,7 @@ class More extends Component {
                 {this.state.showMenu
                     ? (
                         <div className='menuTop'>
+
                             <button id="topics"><img src={Topics}></img>Topics</button>
                             <button id='moments'><img src={Moments}></img>Moments</button>
                             <button id='newsletters'><img src={Newsletter}></img>Newsletters</button>
@@ -37,14 +38,13 @@ class More extends Component {
                             <button id='helpCenter'><img src={HelpCenter}></img>Help Center</button>
                             <button id='display'><img src={Display}></img>Display</button>
                             <button id='keyboardShortcuts'><img src={KeyboardShorts}></img>Keyboard Shortcuts</button>
+
                         </div>
                     )
                     : (null)
                 }
-
             </div>
         );
     }
 }
-
 export default More;

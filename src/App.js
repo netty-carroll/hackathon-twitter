@@ -35,7 +35,6 @@ function App() {
         <TwitterFooter />
       </section>
     </div>
-
   );
 }
 export default App;
