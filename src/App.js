@@ -6,6 +6,7 @@ import WhatsHappening from './components/whatsHappening';
 import WhoToFollow from './components/whotofollow';
 import PostTweetBox from './components/tweetbox';
 import CentreTopTweets from './components/centretop';
+import Messages from './components/messages';
 
 function App() {
   return (
@@ -32,6 +33,10 @@ function App() {
         <WhatsHappening />
         <WhoToFollow />
         <TwitterFooter />
+      </section>
+
+      <section className="stickyBottom">
+        <Messages />
       </section>
     </div>
   );
