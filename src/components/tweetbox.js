@@ -50,15 +50,14 @@ const PostTweetBox = () => {
                 <div className="createSchedule">
                     <img src={InsertSchedule}></img>
                 </div>
-                    
-                <div className="shareTweetButton">
-                    <button className="tweetBtn" href="#">Tweet{' '}</button>
-                </div>
-                    
+                
                 <div className="characterLimitationIcon">
                 </div>  
 
                 <div className="addAnotherTweetButton">
+                </div>
+                <div className="shareTweetButton">
+                <button className="tweetBtn" href="#">Tweet{' '}</button>
                 </div>
             </div>
         </div> 

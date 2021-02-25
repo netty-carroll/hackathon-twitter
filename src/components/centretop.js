@@ -6,10 +6,9 @@ const CentreTopTweets = () => {
         <div className="centreTopTweets">
             <div className="homeHeading">
                 <h1>Home</h1>
+                <img className="topTweetSearchIcon" src={TopTweetsIcon}></img>
             </div>
-            <div className="topTweetSearchIcon">
-                <img src={TopTweetsIcon}></img>
-            </div>
+           
         </div>
     )
 }
