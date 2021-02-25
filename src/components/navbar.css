@@ -46,6 +46,7 @@ ul li {
     font-size: 19px;
     margin-left:50px;
     margin-bottom: 20px;
+    border-radius: 28px 28px 28px 28px;
 }
 ul {
   list-style-type: none;
@@ -56,9 +57,10 @@ ul {
 li:hover {
   color: #1da1f2;
   cursor: pointer;
-  background-color: rgb(187, 184, 184);
+  background-color: #162D40;
   border-radius: 28px 28px 28px 28px;
   border: 0px solid #000000;
+  transition: 0.2s;
 }
 li {
   padding-top: 10px;
