@@ -18,11 +18,10 @@
 }
 .menuTop{
     display: flex;
-    justify-content: start;
+    justify-content:flex-start;
     flex-direction: column;
 }
 .menuTop button{
-    display: flex;
     justify-content: space-evenly;
     font-size: 19px;
     background-color:#15202B;
