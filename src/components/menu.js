@@ -22,20 +22,18 @@ class More extends Component {
                             <button id="topics">Topics</button>
                             <button id='moments'>Moments</button>
                             <button>Newsletters</button>
-                            <button>Teitter Adds</button>
-                            <button>analytics</button>
-                            <button>settings and privacy</button>
+                            <button>Twitter Ads</button>
+                            <button>Analytics</button>
+                            <button>Settings and privacy</button>
                             <button>Help Center</button>
                             <button>Display</button>
-                            <button>Keyboard Shortcuts</button>
+                            <button>Keyboard shortcuts</button>
                         </div>
                     )
                     : (null)
                 }
-
             </div>
         );
     }
 }
-
 export default More;
