@@ -1,0 +1,21 @@
+.centreTopTweets{
+    border: 1px solid grey;
+    height: 10vh;
+}
+.homeHeading{
+    height: 100%;
+}
+.homeHeading h1 {
+    align-items: flex-start;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+}
+.topTweetSearchIcon {
+    height: 100%;
+}
+.topTweetSearchIcon img{
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: calc(0px + (-1 * (44px - 1.5em)) / 2);
+}

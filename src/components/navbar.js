@@ -6,9 +6,9 @@ import Messages from './images/mail.svg'
 import Bookmarks from './images/bookmark-regular.svg' 
 import Lists from './images/list-solid.svg'
 import Profile from './images/user-solid.svg'
-import More from './images/comment-dots-regular.svg'
 import Home from './images/home-solid.svg'
 import Bird from './images/bird.svg';
+import More from './menu'
 
 const Navbar = () => {
     return (
@@ -25,7 +25,7 @@ const Navbar = () => {
                 <li><img src={Bookmarks} alt="Bookmarks" /><span className="words">Bookmarks</span></li>
                 <li><img src={Lists} alt="Lists" /><span className="words">Lists</span></li>
                 <li><img src={Profile} alt="Profile" /><span className="words">Profile</span></li>
-                <li><img src={More} alt="More" /><span className="words">More</span></li>
+                <li><More /></li>
             </ul>
 
             <div className='buttonWrap'>
