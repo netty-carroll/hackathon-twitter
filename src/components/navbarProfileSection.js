@@ -1,5 +1,6 @@
 import React from 'react'
 import {Avatar} from "@material-ui/core"
+import "./navbarProfileSection.css"
 
 // we will need to create another js file to add the function to open an menu for the profile options 
 
