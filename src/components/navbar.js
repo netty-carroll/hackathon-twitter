@@ -9,6 +9,7 @@ import Profile from './images/user-solid.svg'
 import Home from './images/home-solid.svg'
 import Bird from './images/bird.svg';
 import More from './menu'
+import MoreIcon from './images/comment-dots-regular.svg'
 
 const Navbar = () => {
     return (
@@ -25,7 +26,7 @@ const Navbar = () => {
                 <li><img src={Bookmarks} alt="Bookmarks" /><span className="words">Bookmarks</span></li>
                 <li><img src={Lists} alt="Lists" /><span className="words">Lists</span></li>
                 <li><img src={Profile} alt="Profile" /><span className="words">Profile</span></li>
-                <li><More /></li>
+                <li className='moreSect'><img src={MoreIcon}></img><More /></li>
             </ul>
 
             <div className='buttonWrap'>

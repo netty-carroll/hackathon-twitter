@@ -11,7 +11,7 @@ const TwitterFooter = () => {
                 <li><a href="https://help.twitter.com/en/rules-and-policies/twitter-cookies" target="_blank">
                     Cookie Policy</a></li>
                 <li><a href="https://business.twitter.com/en/help/troubleshooting/how-twitter-ads-work.html" target="_blank">
-                    Ads Info</a></li>
+                    Ads info</a></li>
                 <li><p>2021 Hackathon, Twitter</p></li>
             </ul>   
         </div>
