@@ -5,6 +5,7 @@ const WhatsHappening = () => {
         <div className="whatsHapSection">
             <div className="whatsHapHeader">
                 <h2>What's happening</h2>
+                
             </div>           
 
             <div className="whatsHapShowMore">
