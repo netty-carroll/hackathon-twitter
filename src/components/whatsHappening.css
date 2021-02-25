@@ -3,10 +3,19 @@
     border: 0px solid;
     margin: 8px 0;
     outline: none;
-    padding: 8px 0px 8px 35px;
+    padding: 8px 0px 8px 0px;
     border-radius: 25px;
     margin-top: 4%;
     color: white;
+    background-color: rgb(25, 39, 52);
+}
+
+.whatsHapHeader:hover {
+    background-color: rgb(56, 68, 77);
+}
+
+.whatsHapShowMore:hover {
+    background-color: rgb(56, 68, 77);
 }
 
 .whatsHapShowMore a {

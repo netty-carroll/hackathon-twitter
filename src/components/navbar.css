@@ -18,9 +18,9 @@
   border: 0px solid #000000;
   cursor: pointer;
   margin-top: 0%;
-  margin-left: 4%;
+  margin-left: 0%;
   background: #1da1f2;
-  font-weight: 900;
+  font-weight: 700;
   transition: 0.3s;
 }
 .tweetBtnNav:hover {
