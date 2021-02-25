@@ -1,18 +1,22 @@
 .centreTopTweets{
-    border: 1px solid grey;
-    height: 10vh;
-    position: sticky;
+    flex: 0.4;
+    border-right: 1px solid var(--twitter-background);
+    min-width: fit-content;
+    overflow-y: scroll;
+    scrollbar-width: none;
 }
 .homeHeading{
-    height: 100%;
+    position: sticky;
+    top: 0;
+    background-color: #15202B;
+    z-index: 100;
+    border: 1px solid var(--twitter-background);
+    padding: 15px 20px;
 }
-.homeHeading h1 {
-    align-items: flex-start;
-    font-weight: bold;
+
+.homeHeading > h2 {
     font-size: 20px;
-    color: #ffffff;
-    margin-top: 1%;
-    margin-left: 1%;
+    font-weight: 800;
 }
 .topTweetSearchIcon {
     height: 100%;
@@ -22,4 +26,7 @@
     height: 2em;
     /* margin-right: calc(0px + (-1 * (44px - 1.5em)) / 2); */
     margin-left: 740px;
+}
+.centreTopTweets::-webkit-scrollbar {
+    display: none;
 }

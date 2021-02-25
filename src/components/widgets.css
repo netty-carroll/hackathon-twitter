@@ -1,0 +1,20 @@
+.widgets {
+    flex: 0.3;
+}
+
+.widgets_searchIcon {
+    color: grey;
+}
+.widgets_input > input {
+    border: none;
+    background-color: var(--twitter-background);
+}
+.widgets_input {
+    display: flex;
+    align-items: center;
+    background-color: var(--twitter-background);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}

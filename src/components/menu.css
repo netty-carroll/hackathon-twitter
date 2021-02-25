@@ -5,16 +5,19 @@
     background-color:#15202B;
     border: none;
     margin-left: 15px;
-    color: white;
-}
-.moreBtn :hover{
-    display: flex;
-    justify-content: space-evenly;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 19px;
-    background-color:red;
-    border: none;
-    margin-left: 15px;
-    color: white;
+    border-radius: 28px 28px 28px 28px;
+}
+.moreBtn:hover{
+    color: #1da1f2;
+  cursor: pointer;
+  background-color: #162D40;
+  border-radius: 28px 28px 28px 28px;
+  border: 0px solid #000000;
+  transition: 0.2s;
 }
 .menuTop{
     display: flex;
