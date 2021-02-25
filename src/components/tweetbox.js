@@ -17,7 +17,12 @@ const PostTweetBox = () => {
                 </div>
                 <div className="inputTweetText">
                     <div className="inputTextBox">
+                        <div className="tweetTextInput">
+                            <input className="tweetTextInput"></input>
+                            <h1>What's Happening ?</h1>
 
+                        </div>
+                    
                     </div>
                 </div>                  
             </div>
