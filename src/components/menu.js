@@ -12,7 +12,7 @@ class More extends Component {
         return (
             
             <div>
-                <button onClick={() => this.setState({showMenu: !this.state.showMenu})}>
+                <button className="moreBtn" onClick={() => this.setState({showMenu: !this.state.showMenu})}>
                     More
                 </button>
 

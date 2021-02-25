@@ -1,0 +1,32 @@
+.moreBtn{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 19px;
+    background-color:#15202B;
+    border: none;
+    margin-left: 15px;
+    color: white;
+}
+.moreBtn :hover{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 19px;
+    background-color:red;
+    border: none;
+    margin-left: 15px;
+    color: white;
+}
+.menuTop{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+.menuTop button{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 19px;
+    background-color:#15202B;
+    border: none;
+    margin-left: 15px;
+    color: white;
+}
