@@ -6,6 +6,7 @@ import WhatsHappening from './components/whatsHappening';
 import WhoToFollow from './components/whotofollow';
 import PostTweetBox from './components/tweetbox';
 import CentreTopTweets from './components/centretop';
+import Messages from './components/messages';
 import RightSectMore from './components/rightSectMore'
 
 function App() {
@@ -34,6 +35,10 @@ function App() {
         <WhoToFollow />
         <TwitterFooter />
         <RightSectMore />
+      </section>
+
+      <section className="stickyBottom">
+        <Messages />
       </section>
     </div>
   );
