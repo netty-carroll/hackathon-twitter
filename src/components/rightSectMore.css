@@ -1,0 +1,31 @@
+.rsMoreBtn{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 19px;
+    background-color:#15202B;
+    border: none;
+    margin-left: 15px;
+    color: white;
+}
+.rsMoreBtn :hover{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 19px;
+    background-color:red;
+    border: none;
+    margin-left: 15px;
+    color: white;
+}
+.moreTerms{
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+}
+.moreTerms button{
+    justify-content: space-evenly;
+    font-size: 19px;
+    background-color:#15202B;
+    border: none;
+    margin-left: 15px;
+    color: white;
+}
