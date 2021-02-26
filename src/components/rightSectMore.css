@@ -1,20 +1,23 @@
+.footerMoreButton{
+    display: flex;
+    width: 100px;
+}
+
 .rsMoreBtn{
     display: flex;
     justify-content: space-evenly;
-    font-size: 19px;
-    background-color:#15202B;
+    font-size: 13px;
     border: none;
-    margin-left: 15px;
-    color: white;
+    padding-right: 12px;
+    color: #6B7B87;
+    cursor: pointer;
+    width: auto;
 }
-.rsMoreBtn :hover{
+.rsMoreBtn:hover{
     display: flex;
     justify-content: space-evenly;
-    font-size: 19px;
-    background-color:red;
     border: none;
-    margin-left: 15px;
-    color: white;
+    text-decoration: underline;
 }
 .moreTerms{
     display: flex;
