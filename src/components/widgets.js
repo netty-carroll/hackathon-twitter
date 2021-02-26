@@ -4,6 +4,7 @@ import WhatsHappening from './whatsHappening';
 import WhoToFollow from './whotofollow';
 import RightSectMore from './rightSectMore';
 import TwitterFooter from './footer'
+import './widgets.css'
 
 function widgets() {
     return (
