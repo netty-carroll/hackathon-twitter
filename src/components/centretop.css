@@ -1,7 +1,7 @@
 .centreTopTweets{
     flex: 0.4;
     border-right: 1px solid var(--twitter-background);
-    min-width: 40vw;
+    min-width: 35vw;
     overflow-y: scroll;
     scrollbar-width: none;
 }

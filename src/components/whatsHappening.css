@@ -2,7 +2,7 @@
     border: 0px solid;
     margin: 8px 0;
     outline: none;
-    padding: 8px 0px 8px 0px;
+    padding: 10px;
     border-radius: 25px;
     margin-top: 4%;
     color: white;
@@ -22,10 +22,41 @@
     color: #2290d4;
     text-decoration: none;
 }
+.whatsHapHeader {
+    border-bottom: 1px solid grey;
+}
+.firstHappening {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid grey;
+}
+.pWrap {
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+}
 
 .firstHappening > h2 {
-    font-size: 0.6em;
+    font-size: 0.8em;
+    color: grey;
+}
+.firstHappening > p {
+    font-weight: 900;
+}
+.firstHappening img {
+    width: 80px;
+    height: 80px;
+}
+.trend {
+    color: var(--twitter-color);
 }
 .secondHappening > h2{
-
+    font-size: 0.8em;
+    color: grey;
+}
+.secondHappening > p {
+    font-weight: 900;
+}
+.secondHappening {
+    border-bottom: 1px solid grey;
 }
