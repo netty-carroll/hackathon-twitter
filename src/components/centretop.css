@@ -6,6 +6,8 @@
     scrollbar-width: none;
 }
 .homeHeading{
+    display: flex;
+    align-items: space-between;
     position: sticky;
     top: 0;
     background-color: #15202B;
@@ -15,17 +17,20 @@
 }
 
 .homeHeading > h2 {
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
     font-size: 20px;
     font-weight: 800;
+    color: white;
+
 }
+
 .topTweetSearchIcon {
-    height: 100%;
-}
-.topTweetSearchIcon {
-    width: 2em;
-    height: 2em;
-    /* margin-right: calc(0px + (-1 * (44px - 1.5em)) / 2); */
-    margin-left: 740px;
+    width: 30px;
+    height: 30px;
+    
+    
 }
 .centreTopTweets::-webkit-scrollbar {
     display: none;
