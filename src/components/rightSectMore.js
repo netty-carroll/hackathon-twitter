@@ -9,9 +9,8 @@ class RightSectMore extends Component {
         }
     }
     render() {
-        return (
-            
-            <div>
+        return ( 
+            <div className="footerMoreButton">
                 <button className="rsMoreBtn" onClick={() => this.setState({showMenu: !this.state.showMenu})}>
                     More
                 </button>

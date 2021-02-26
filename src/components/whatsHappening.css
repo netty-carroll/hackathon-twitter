@@ -1,5 +1,4 @@
 .whatsHapSection {
-    
     border: 0px solid;
     margin: 8px 0;
     outline: none;
@@ -20,4 +19,5 @@
 
 .whatsHapShowMore a {
     color: #2290d4;
+    text-decoration: none;
 }
