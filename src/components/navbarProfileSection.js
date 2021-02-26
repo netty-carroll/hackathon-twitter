@@ -1,6 +1,8 @@
 import React from 'react'
 import {Avatar} from "@material-ui/core"
 import "./navbarProfileSection.css"
+import MoreIcon from '@material-ui/icons/MoreHoriz';
+
 
 // we will need to create another js file to add the function to open an menu for the profile options 
 
@@ -14,19 +16,18 @@ const CurrentProfileDisplay = () => {
                 
                 <div className="nameAndUsername">
                     <div className="twitterName">
-                        {/* need to add the code to insert the profiles name here */}
+                        <h3>Twitter Name</h3>
                     </div>
 
                     <div className="twitterUsername">
-                        {/* need to add the code to insert the profile's username here  */}
-                    </div>
-
-                    <div className="profileOptions">
-                        <div className="profileOptionsButton">
-                            {/* 3 dotted button to open profile options menu */}
-                        </div>
+                        <h3>@username</h3>
                     </div>
                 </div>
+
+                <div className="profileOptionsButton">
+                        <div className="moreIconp"><MoreIcon /></div>
+                </div>
+                 
             </div>
     )
 }
