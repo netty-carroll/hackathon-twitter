@@ -4,3 +4,27 @@
     border-bottom: 1px solid var(--twitter-background);
     padding-bottom: 10px;
 }
+.postBody {
+    flex: 1;
+    padding: 10px;
+}
+.postBody img {
+    border-radius: 20px;
+}
+.tweetFooter {
+    display: flex;
+    justify-content: space-between;
+}
+.verifiedLogo {
+    font-size: 14px;
+    color: white;
+}
+
+.postHeaderText > h3 {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.tweetAvatar {
+    padding: 20px;
+
+}
