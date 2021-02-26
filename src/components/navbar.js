@@ -1,32 +1,32 @@
 import CurrentProfileDisplay from './navbarProfileSection';
 import './navbar.css';
-import Notification from './images/bell.svg'
-import Explore from './images/hashtag.svg'
-import Messages from './images/mail.svg'
-import Bookmarks from './images/bookmark-regular.svg' 
-import Lists from './images/list-solid.svg'
-import Profile from './images/user-solid.svg'
-import Home from './images/home-solid.svg'
-import Bird from './images/bird.svg';
-import More from './menu'
-import MoreIcon from './images/comment-dots-regular.svg'
+import Notification from '@material-ui/icons/NotificationsNone';
+import Explore from "@material-ui/icons/Search";
+import Messages from '@material-ui/icons/MailOutline';
+import Bookmarks from '@material-ui/icons/BookmarkBorder'; 
+import Lists from '@material-ui/icons/ListAlt';
+import Profile from '@material-ui/icons/PermIdentity';
+import Home from "@material-ui/icons/Home";
+import Bird from './images/bird.svg'
+import More from "./menu"
+import MoreIcon from '@material-ui/icons/MoreHoriz';
 
 const Navbar = () => {
     return (
-        <nav>
+        <nav className="sidebarWrap">
             <div className='birdWrap'>
                 <img className='twitLogo' src={Bird} alt="twitlogo"/>
             </div>
 
             <ul className="sidebar">      
-                <li><img src={Home} alt="Home"/><span className="words">Home</span></li>
-                <li><img src={Explore} alt="Explore" /><span className="words">Explore</span></li>
-                <li><img src={Notification} alt="Notification" /><span className="words">Notification</span></li>
-                <li><img src={Messages} alt="Messages" /><span className="words">Messages</span></li>
-                <li><img src={Bookmarks} alt="Bookmarks" /><span className="words">Bookmarks</span></li>
-                <li><img src={Lists} alt="Lists" /><span className="words">Lists</span></li>
-                <li><img src={Profile} alt="Profile" /><span className="words">Profile</span></li>
-                <li className='moreSect'><img src={MoreIcon}></img><More /></li>
+                <li><Home/><span className="words">Home</span></li>
+                <li><Explore/><span className="words">Explore</span></li>
+                <li><Notification/><span className="words">Notification</span></li>
+                <li><Messages/><span className="words">Messages</span></li>
+                <li><Bookmarks/><span className="words">Bookmarks</span></li>
+                <li><Lists/> <span className="words">Lists</span></li>
+                <li><Profile/><span className="words">Profile</span></li>
+                <li className='moreSect'><MoreIcon/><More /></li>
             </ul>
 
             <div className='buttonWrap'>

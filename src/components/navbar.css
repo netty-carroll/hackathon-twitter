@@ -1,8 +1,14 @@
-.birdLogo{
+.sidebarWrap {
+  border-right: 1px solid var(--twitter-background);
+  flex: 0.3;
+  min-width: 10vw;
   margin-top: 20px;
-  margin-left: 60px;
- 
+  padding-left: 20px;
+  padding-right: 20px;
 }
+
+
+
 .tweetBtnNav {
   display: inline-block;
   color: #ffffff;
@@ -28,14 +34,6 @@
   background-color: #2290d4;
 }
 
-.sidebar {
-  display: flex;
-  flex-direction: column;
-  grid-template-columns: 20% 80%;
-  margin-bottom: 20px;
-  text-decoration: none;
-  margin-left: 50px;
-}
 
 ul li {
     color: rgb(255, 255, 255);
@@ -63,8 +61,11 @@ li:hover {
   transition: 0.2s;
 }
 li {
+  display: flex;
+  align-items: center;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-left: 10px;
 }
 img {
   width: 26px;
@@ -72,22 +73,14 @@ img {
   margin-left: 10px;
 }
 
-.words {
-  padding-left: 15px;
-}
-
-.homeLogo {
-  background-image: url("./images/home-solid.svg");
-}
 .twitLogo {
-  width: 30px;
-  height: 30px;
-  padding: 3px ;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 .birdWrap {
   display: flex;
   justify-content: center;
-  padding-right: 45%;
+  padding-right: 35%;
   padding-bottom: 20px;
   padding-top: 20px;
 }

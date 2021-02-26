@@ -1,0 +1,20 @@
+.widgets {
+    flex: 0.3;
+    min-width: 10vw;
+}
+
+.widgetContainer {
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: var(--twitter-background);
+}   
