@@ -11,7 +11,7 @@ function post() {
     return (
         <div className="post">
             <div classname="tweetAvatarWrap">
-                <Avatar src="https://pbs.twimg.com/profile_images/1250932097725992960/lt6qxsT1_400x400.jpg" />
+                <Avatar className="twattingAvatar" src="https://pbs.twimg.com/profile_images/1250932097725992960/lt6qxsT1_400x400.jpg" />
             </div>
             <div className="postBody">
                 <div className="postHeader">

@@ -68,6 +68,7 @@ li {
 
 
 .twitLogo {
+  color: white;
   padding: 10px;
   width: 26px;
   height: 26px;
@@ -100,4 +101,8 @@ li {
 }
 .words {
   padding-left: 10px;
+}
+
+.active {
+  color: var(--twitter-color);
 }
