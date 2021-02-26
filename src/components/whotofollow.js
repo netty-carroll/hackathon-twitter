@@ -11,14 +11,14 @@ const WhoToFollow = () => {
                 <Avatar className="lfcAvatar"src="https://pbs.twimg.com/profile_images/1338403510463983616/OKTADee9_400x400.png"/>
                 <h2>Liverpool FC</h2>
                 <h3>@LFC</h3>
-                <button classname ="follow">Follow</button>
+                <button className ="follow">Follow</button>
             
             </div>
             <div class name="cher">
                 <Avatar className="cherAvatar" src="https://pbs.twimg.com/profile_images/1201634247775264768/MxO2TCOj_400x400.jpg"/>
                 <h2>Cher</h2>
                 <h3>@cher</h3>
-                <button classname ="follow">Follow</button>
+                <button className ="follow">Follow</button>
             </div>
 
             <div className="whoToFollowShowMore">
