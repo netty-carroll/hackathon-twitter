@@ -11,6 +11,7 @@
 
 .whatsHapHeader:hover {
     background-color: rgb(56, 68, 77);
+    border-radius: 20px;
 }
 
 .whatsHapShowMore:hover {
@@ -20,4 +21,11 @@
 .whatsHapShowMore a {
     color: #2290d4;
     text-decoration: none;
+}
+
+.firstHappening > h2 {
+    font-size: 0.6em;
+}
+.secondHappening > h2{
+
 }

@@ -5,7 +5,7 @@ const WhatsHappening = () => {
     return (
         <div className="whatsHapSection">
             <div className="whatsHapHeader">
-                <h2>What's happening</h2>
+                <h3>What's happening</h3>
             </div>
             <div className="firstHappening">
                 <h2> News - Last night </h2>
@@ -16,9 +16,9 @@ const WhatsHappening = () => {
                 <img src="https://pbs.twimg.com/semantic_core_img/1365105055041392642/fbJxJRoD?format=jpg&name=240x240" />
             </div>
             <div className="secondHappening">
-            <h2>Trending in United Kingdom</h2>
-            <p>Mr Potato Head <whMenu /></p>
-            <h2>Trending with <span className="trend">Hasbro</span></h2>
+                <h2>Trending in United Kingdom</h2>
+                <p>Mr Potato Head <whMenu /></p>
+                <h2>Trending with <span className="trend">Hasbro</span></h2>
             </div>
             <div className="whatsHapShowMore">
                 <a href="">Show more</a>
