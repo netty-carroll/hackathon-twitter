@@ -60,6 +60,7 @@
     cursor: pointer;
     align-items: center;
     justify-content: center;
+    padding-right: 30px;
 }
 .twoBoxIcons{
     align-items: stretch;
