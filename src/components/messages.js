@@ -1,6 +1,6 @@
 import './messages.css';
-import NewMessageSVG from './images/emojiAdd.svg';
-import ExpandSVG from './images/mail.svg';
+import NewMessageSVG from './images/envelopePlus.svg';
+import ExpandSVG from './images/doubleUp.svg';
 
 const Messages = () => {
     return(
