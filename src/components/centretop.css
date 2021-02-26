@@ -17,6 +17,7 @@
 .homeHeading > h2 {
     font-size: 20px;
     font-weight: 800;
+    color: white;
 }
 .topTweetSearchIcon {
     height: 100%;
