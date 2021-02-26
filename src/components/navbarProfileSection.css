@@ -1,3 +1,50 @@
+.currentProfile{
+    border-radius: 28px 28px 28px 28px;
+    display: flex;
+    flex-direction: row;
+}
+
+.currentProfile:hover{
+    cursor: pointer;
+    background-color: #162D40;
+}
+
 .profileImage {
     padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.twitterUsername{
+    color: rgb(136, 153, 166);
+    font-size: 14px;
+    font-weight: 400;
+}
+.twitterName{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0;
+}
+.profileOptionsButton{
+    color: rgb(255, 255, 255);
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.nameAndUsername{
+    margin-left: 1vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.nameAndUsername h3{
+    margin: 0;
+    padding: 0;
+}
+.moreIconp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5vh;
 }
