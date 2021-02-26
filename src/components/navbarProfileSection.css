@@ -2,6 +2,7 @@
     border-radius: 28px 28px 28px 28px;
     display: flex;
     flex-direction: row;
+    padding-top: 40%;
 }
 
 .currentProfile:hover{
@@ -48,3 +49,4 @@
     align-items: center;
     padding-left: 5vh;
 }
+
