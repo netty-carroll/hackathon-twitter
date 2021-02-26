@@ -1,9 +1,13 @@
 .widgets {
     flex: 0.4;
     min-width: 15vw;
-    position: sticky;
+    overflow-y: scroll;
+    scrollbar-width: none;
 }
 
+.widgets::-webkit-scrollbar {
+    display: none;
+}
 .widgetContainer {
     margin-top: 15px;
     margin-left: 20px;

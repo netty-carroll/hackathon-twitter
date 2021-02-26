@@ -7,27 +7,27 @@ import RepeatIcon from '@material-ui/icons/Repeat';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 import PublishIcon from '@material-ui/icons/Publish';
 
-function post() {
+function post3() {
     return (
         <div className="post">
             <div classname="tweetAvatarWrap">
-                <Avatar src="https://pbs.twimg.com/profile_images/1250932097725992960/lt6qxsT1_400x400.jpg" />
+                <Avatar src="https://pbs.twimg.com/profile_images/1348408803847507973/ITH-kyXv_400x400.jpg" />
             </div>
             <div className="postBody">
                 <div className="postHeader">
                     <div className="postHeaderText">
                         <h3>
-                            Team Raphael{""}
+                            NMunro{""}
                             <span className="displayNameVerify">
-                                <VerifiedUserIcon className="verifiedLogo" />@TeamRaphael
+                                <VerifiedUserIcon className="verifiedLogo" />@Neil_Munro
                             </span>
                         </h3>
                     </div>
                     <div className="tweetText">
-                        <p> We could use this instead of images</p>
+                        <p> You're project is due soon, focus on that and get off Twitter!</p>
                     </div>
                 </div>
-                <img src="https://media3.giphy.com/media/3j1cHG02iKU3NEsnBy/giphy.gif" />
+                <img src="https://media1.tenor.com/images/df670ab4733de6e3704bdf583a7542fc/tenor.gif?itemid=14507681" />
                 <div className="tweetFooter">
                     <ChatBubbleOutlineIcon fontSize="small" />
                     <RepeatIcon fontSize="small" />
@@ -43,4 +43,4 @@ function post() {
     )
 }
 
-export default post;
+export default post3;
