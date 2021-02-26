@@ -3,7 +3,6 @@ body {
   --twitter-background: #e6ecf0;
   background-color: #15202B;
 }
-
 .app {
   display: flex;
   height: 100vh;

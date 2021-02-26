@@ -14,8 +14,8 @@
     z-index: 100;
     border: 1px solid var(--twitter-background);
     padding: 15px 20px;
+    cursor: pointer;
 }
-
 .homeHeading > h2 {
     width: 40vw;
     display: flex;
@@ -25,13 +25,15 @@
     color: white;
 
 }
-
 .topTweetSearchIcon {
     width: 30px;
     height: 30px;
-    
-    
 }
 .centreTopTweets::-webkit-scrollbar {
     display: none;
+}
+.homeHeading > img:hover {
+    background-color: #162D40;
+    transition: 0.3s;
+    border-radius: 50%;
 }
