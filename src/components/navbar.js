@@ -19,7 +19,7 @@ const Navbar = () => {
             </div>
 
             <ul className="sidebar">      
-                <li><Home/><span className="words">Home</span></li>
+                <li className="active"><Home/><span className="words">Home</span></li>
                 <li><Explore/><span className="words">Explore</span></li>
                 <li><Notification/><span className="words">Notification</span></li>
                 <li><Messages/><span className="words">Messages</span></li>
