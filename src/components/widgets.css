@@ -1,6 +1,7 @@
 .widgets {
     flex: 0.4;
     min-width: 15vw;
+    position: sticky;
 }
 
 .widgetContainer {

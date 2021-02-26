@@ -14,17 +14,29 @@
 .tweetFooter {
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
+    color: white;
 }
 .verifiedLogo {
-    font-size: 14px;
+    font-size: 14px !important;
     color: white;
 }
 
 .postHeaderText > h3 {
+    color: white;
     margin-bottom: 10px;
     font-size: 15px;
 }
 
 .tweetAvatarWrap {
-    padding: 20px;
+   padding: 20px;
+}
+
+.displayNameVerify {
+    font-weight: 600;
+    font-size: 12px;
+    color: grey;
+}
+.tweetText {
+    color: white;
 }

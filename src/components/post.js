@@ -19,7 +19,7 @@ function post() {
                         <h3>
                             Team Raphael{""}
                             <span className="displayNameVerify">
-                                <VerifiedUserIcon className="verifiedLogo"/>@TeamRaphael
+                                <VerifiedUserIcon className="verifiedLogo" />@TeamRaphael
                             </span>
                         </h3>
                     </div>
@@ -36,7 +36,10 @@ function post() {
 
                 </div>
             </div>
+
+
         </div>
+
     )
 }
 

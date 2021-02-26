@@ -12,6 +12,8 @@ const CentreTopTweets = () => {
             </div>
            <Tweetbox />
            <Post />
+           <post />
+           <post />
         </div>
     )
 }

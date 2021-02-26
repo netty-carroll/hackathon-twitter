@@ -7,18 +7,12 @@ import Messages from './components/messages';
 function App() {
   return (
     <div className="app">      
-      <div className="navbarClass">
-        <Navbar />
-      </div>
-      <div className="centretopClass">
+      
+        <Navbar />  
         <CentreTop />
-      </div>
-      <div className="widgetsClass">
         <Widgets />
-      </div>
-      <div className="messagesClass">
         <Messages />
-      </div>
+     
     </div>
   );
 }
