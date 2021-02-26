@@ -18,23 +18,23 @@ const PostTweetBox = () => {
 
                 <div className="buttonBox">
                     <div className="insertMedia">
-                        <img src={InsertMediaIcon}></img>
+                        <img className="btnBoxIcn" src={InsertMediaIcon}></img>
                     </div>
 
                     <div className="insertGif">
-                        <img src={InsertGifIcon}></img>
+                        <img className="btnBoxIcn" src={InsertGifIcon}></img>
                     </div>
 
                     <div className="askAQuestionTweet">
-                        <img src={InsertAddQuestion}></img>
+                        <img className="btnBoxIcn" src={InsertAddQuestion}></img>
                     </div>
 
                     <div className="insertEmoji">
-                        <img src={InsertEmojiIcon}></img>
+                        <img className="btnBoxIcn" src={InsertEmojiIcon}></img>
                     </div>
 
                     <div className="createSchedule">
-                        <img src={InsertSchedule}></img>
+                        <img className="btnBoxIcn" src={InsertSchedule}></img>
                     </div>
 
                     <div className="characterLimitationIcon">
